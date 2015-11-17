@@ -134,6 +134,8 @@ figure {
 }
 
 
+
+
 /*--------------------------------------------------------------
 5.0 - UTILITY
 -------------------------------------------------------------- */
@@ -210,6 +212,7 @@ p, a, dd, label {
 /* ----------
 5.4 Alignment
 -----------*/
+
 
 
 h1 {
@@ -297,7 +300,7 @@ figure {
 }
 */
 
-.col-1 {
+.col-1, input, textarea {
 	width: 100%;
 }
 
@@ -621,19 +624,26 @@ img {
 
 	h1 {
 		font-size: 2rem;
+		margin-top: 8rem;
 	}
 		
 	.hero p {
-		font-size: .85rem;
-		line-height: 1rem;
+		font-size: 1.5rem;
+		line-height: 2rem;
+		margin-bottom: 2.5rem;
 	}
 	
 
-	.col-1-2, h1, p {
+	.col-1-2, h1, p, .hero p {
 		width: 97%;
-		padding: 0 3rem 0 0;
+		padding: 0;
 	}
 
-
+	
+	nav a {
+		padding: 0 .5rem;
+	}
+	
+	
 	
 }
